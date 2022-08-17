@@ -1,0 +1,56 @@
+package com.hong.data.common.di
+
+import com.hong.data.common.di.InterceptorModule.GENERAL_AUTH
+import com.hong.data.common.util.Constants.BASE_OKHTTP_CLIENT
+import com.hong.data.common.util.Constants.BASE_URL
+import com.hong.data.common.util.Constants.CONNECT_TIMEOUT
+import com.hong.data.common.util.Constants.READ_TIMEOUT
+import com.hong.data.common.util.Constants.WRITE_TIMEOUT
+import dagger.Module
+import dagger.Provides
+import dagger.hilt.InstallIn
+import dagger.hilt.components.SingletonComponent
+import okhttp3.Interceptor
+import okhttp3.OkHttpClient
+import okhttp3.logging.HttpLoggingInterceptor
+import retrofit2.Retrofit
+import retrofit2.converter.gson.GsonConverterFactory
+import java.util.concurrent.TimeUnit
+import javax.inject.Named
+import javax.inject.Singleton
+
+@Module
+@InstallIn(SingletonComponent::class)
+object NetworkModule {
+
+    @Provides
+    @Singleton
+    fun provideNormalRetrofit(
+        @Named(GENERAL_AUTH) okHttpClientBuilder: OkHttpClient.Builder
+    ): Retrofit = Retrofit.Builder()
+        .addConverterFactory(GsonConverterFactory.create())
+        .baseUrl(BASE_URL)
+        .client(okHttpClientBuilder.build())
+        .build()
+
+    @Provides
+    @Singleton
+    @Named(GENERAL_AUTH)
+    fun provideGeneralAuthOkHttpClient(
+        @Named(BASE_OKHTTP_CLIENT) baseOkHttpClientBuilder: OkHttpClient.Builder,
+        @Named(GENERAL_AUTH) authInterceptor: Interceptor
+    ): OkHttpClient.Builder = baseOkHttpClientBuilder
+        .addInterceptor(authInterceptor)
+
+    @Provides
+    @Singleton
+    @Named(BASE_OKHTTP_CLIENT)
+    fun provideBaseOkHttpClient(loggerInterceptor: HttpLoggingInterceptor): OkHttpClient.Builder =
+        OkHttpClient.Builder()
+            .retryOnConnectionFailure(true)
+            .connectTimeout(CONNECT_TIMEOUT, TimeUnit.SECONDS)
+            .writeTimeout(WRITE_TIMEOUT, TimeUnit.SECONDS)
+            .readTimeout(READ_TIMEOUT, TimeUnit.SECONDS)
+            .addInterceptor(loggerInterceptor)
+
+}

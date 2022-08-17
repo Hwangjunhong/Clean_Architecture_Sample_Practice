@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CleanArchitecturePractice.iml" filepath="$PROJECT_DIR$/.idea/modules/CleanArchitecturePractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CleanArchitecturePractice.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CleanArchitecturePractice.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CleanArchitecturePractice.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CleanArchitecturePractice.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CleanArchitecturePractice.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CleanArchitecturePractice.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CleanArchitecturePractice.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CleanArchitecturePractice.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CleanArchitecturePractice.buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/CleanArchitecturePractice.buildSrc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CleanArchitecturePractice.buildSrc.main.iml" filepath="$PROJECT_DIR$/.idea/modules/CleanArchitecturePractice.buildSrc.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CleanArchitecturePractice.buildSrc.test.iml" filepath="$PROJECT_DIR$/.idea/modules/CleanArchitecturePractice.buildSrc.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/CleanArchitecturePractice.data.iml" filepath="$PROJECT_DIR$/.idea/modules/data/CleanArchitecturePractice.data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/CleanArchitecturePractice.data.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/data/CleanArchitecturePractice.data.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/CleanArchitecturePractice.data.main.iml" filepath="$PROJECT_DIR$/.idea/modules/data/CleanArchitecturePractice.data.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/CleanArchitecturePractice.data.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/data/CleanArchitecturePractice.data.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/CleanArchitecturePractice.domain.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/CleanArchitecturePractice.domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/CleanArchitecturePractice.domain.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/CleanArchitecturePractice.domain.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/CleanArchitecturePractice.domain.main.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/CleanArchitecturePractice.domain.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/CleanArchitecturePractice.domain.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/CleanArchitecturePractice.domain.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/presentation/CleanArchitecturePractice.presentation.iml" filepath="$PROJECT_DIR$/.idea/modules/presentation/CleanArchitecturePractice.presentation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/presentation/CleanArchitecturePractice.presentation.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/presentation/CleanArchitecturePractice.presentation.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/presentation/CleanArchitecturePractice.presentation.main.iml" filepath="$PROJECT_DIR$/.idea/modules/presentation/CleanArchitecturePractice.presentation.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/presentation/CleanArchitecturePractice.presentation.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/presentation/CleanArchitecturePractice.presentation.unitTest.iml" />
+    </modules>
+  </component>
+</project>
