@@ -33,28 +33,7 @@ android {
 }
 
 dependencies {
-
-    implementation(KTX.CORE)
-    implementation(AndroidX.APP_COMPAT)
-    implementation(Google.MATERIAL)
-
-    // test
-    testImplementation 'junit:junit:4.+'
-    androidTestImplementation(AndroidTest.EXT_JUNIT)
-    androidTestImplementation(AndroidTest.ESPRESSO_CORE)
-
-    // firebase
-    implementation(Firebase.DATABASE)
-    implementation(Firebase.FIRESTORE)
-
-    // Retrofit
-    implementation(Retrofit.RETROFIT)
-    implementation(Retrofit.CONVERTER_GSON)
-    implementation(Retrofit.CONVERTER_JAXB)
-
-    // okHttp
-    implementation(OkHttp.OKHTTP)
-    implementation(OkHttp.LOGGING_INTERCEPTOR)
+    implementation project(':base')
 
     // coroutines
     implementation(Coroutines.COROUTINES)
@@ -66,6 +45,10 @@ dependencies {
     implementation(DaggerHilt.DAGGER_HILT_VIEW_MODEL)
     kapt(DaggerHilt.DAGGER_HILT_ANDROIDX_COMPILER)
 
-    // timber
-    implementation(Timber.TIMBER)
+    // rx
+    implementation(Rx.RX_JAVA)
+    implementation(Rx.RX_KOTLIN)
+    implementation(Rx.RX_ANDROID)
+    implementation(Retrofit.CONVERTER_RX)
+
 }

@@ -1,14 +1,13 @@
 package com.hong.presentation.view
 
-import androidx.lifecycle.viewModelScope
-import com.hong.domain.sample.entity.UserEntity
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.MutableLiveData
+import com.hong.base.presentation.BaseViewModel
+import com.hong.base.presentation.util.ioToMain
 import com.hong.domain.sample.usecase.GetUserUseCase
-import com.hong.presentation.base.BaseViewModel
+import com.hong.presentation.model.UserData
 import dagger.hilt.android.lifecycle.HiltViewModel
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.flow.*
-import kotlinx.coroutines.launch
-import timber.log.Timber
+import io.reactivex.rxjava3.kotlin.subscribeBy
 import javax.inject.Inject
 
 @HiltViewModel
@@ -16,29 +15,23 @@ class MainViewModel @Inject constructor(
     private val getUserUseCase: GetUserUseCase
 ) : BaseViewModel() {
 
-    private val _state = MutableStateFlow<MainState>(MainState.Init)
-    val state: StateFlow<MainState> get() = _state
+    private val _userList = MutableLiveData<List<UserData>>()
+    val userList: LiveData<List<UserData>> get() = _userList
 
     init {
         getUser()
     }
 
     private fun getUser() {
-        viewModelScope.launch(Dispatchers.IO) {
-            getUserUseCase.invoke()
-                .onStart { MainState.IsLoading(true) }
-                .onEach { _state.value = MainState.SuccessGetUser(it) }
-                .onCompletion { MainState.IsLoading(false) }
-                .catch { exception -> Timber.e(exception) }
-                .collect()
-        }
+        getUserUseCase()
+            .map { it.map(UserData::toPresentationModel) }
+            .ioToMain()
+            .onErrorComplete()
+            .subscribeBy {
+                if (it.isEmpty()) return@subscribeBy
+                _userList.value = it
+            }
+            .addToDisposable()
 
     }
-}
-
-
-sealed class MainState {
-    object Init : MainState()
-    data class SuccessGetUser(val userEntity: List<UserEntity>) : MainState()
-    data class IsLoading(val isLoading: Boolean) : MainState()
 }

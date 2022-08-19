@@ -39,9 +39,10 @@ android {
 
 dependencies {
 
-    implementation project(":data")
+    implementation project(':base')
+    implementation project(':data')
     implementation project(':domain')
-    implementation project(":presentation")
+    implementation project(':presentation')
 
     implementation(KTX.CORE)
     implementation(AndroidX.APP_COMPAT)
@@ -56,7 +57,7 @@ dependencies {
     implementation(Firebase.DATABASE)
     implementation(Firebase.FIRESTORE)
 
-    // dager hilt
+    // hilt
     implementation(DaggerHilt.DAGGER_HILT)
     kapt(DaggerHilt.DAGGER_HILT_COMPILER)
     implementation(DaggerHilt.DAGGER_HILT_VIEW_MODEL)
@@ -76,4 +77,11 @@ dependencies {
 
     //timber
     implementation(Timber.TIMBER)
+
+    // debug
+    debugImplementation(Flipper.FLIPPER)
+    debugImplementation(Flipper.FLIPPER_NETWORK)
+    debugImplementation(Flipper.FLIPPER_CANARY)
+    debugImplementation(Flipper.SOLOADER)
+    debugImplementation(CANARY.CANARY)
 }

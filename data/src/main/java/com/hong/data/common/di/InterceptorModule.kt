@@ -1,6 +1,10 @@
 package com.hong.data.common.di
 
 import com.hong.data.BuildConfig
+import com.hong.data.common.utils.Constants.APPLICATION_JSON
+import com.hong.data.common.utils.Constants.GENERAL_AUTH
+import com.hong.data.common.utils.Constants.HEADER_CONTENT_TYPE
+import com.hong.data.common.utils.Constants.REMOTE_LOG_REGEX
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -14,13 +18,6 @@ import javax.inject.Singleton
 @Module
 @InstallIn(SingletonComponent::class)
 object InterceptorModule {
-
-    internal const val HEADER_CONTENT_TYPE = "Content-Type"
-    internal const val APPLICATION_JSON = "application/json"
-    internal const val X_AUTH_TOKEN = "x-auth-token"
-    internal const val REMOTE_LOG_REGEX = "서버통신: %s"
-    internal const val GENERAL_AUTH = "GeneralAuth"
-    internal const val AUTHORIZATION = "Authorization"
 
     @Provides
     @Singleton

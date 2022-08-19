@@ -7,6 +7,10 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CleanArchitecturePractice.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CleanArchitecturePractice.app.androidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CleanArchitecturePractice.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CleanArchitecturePractice.app.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CleanArchitecturePractice.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CleanArchitecturePractice.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base/CleanArchitecturePractice.base.iml" filepath="$PROJECT_DIR$/.idea/modules/base/CleanArchitecturePractice.base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base/CleanArchitecturePractice.base.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/base/CleanArchitecturePractice.base.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base/CleanArchitecturePractice.base.main.iml" filepath="$PROJECT_DIR$/.idea/modules/base/CleanArchitecturePractice.base.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base/CleanArchitecturePractice.base.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/base/CleanArchitecturePractice.base.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/CleanArchitecturePractice.buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/CleanArchitecturePractice.buildSrc.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/CleanArchitecturePractice.buildSrc.main.iml" filepath="$PROJECT_DIR$/.idea/modules/CleanArchitecturePractice.buildSrc.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/CleanArchitecturePractice.buildSrc.test.iml" filepath="$PROJECT_DIR$/.idea/modules/CleanArchitecturePractice.buildSrc.test.iml" />

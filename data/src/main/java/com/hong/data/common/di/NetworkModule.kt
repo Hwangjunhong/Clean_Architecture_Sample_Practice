@@ -1,15 +1,16 @@
 package com.hong.data.common.di
 
-import com.hong.data.common.di.InterceptorModule.GENERAL_AUTH
-import com.hong.data.common.util.Constants.BASE_OKHTTP_CLIENT
-import com.hong.data.common.util.Constants.BASE_URL
-import com.hong.data.common.util.Constants.CONNECT_TIMEOUT
-import com.hong.data.common.util.Constants.READ_TIMEOUT
-import com.hong.data.common.util.Constants.WRITE_TIMEOUT
+import com.hong.data.common.utils.Constants.BASE_OKHTTP_CLIENT
+import com.hong.data.common.utils.Constants.BASE_URL
+import com.hong.data.common.utils.Constants.CONNECT_TIMEOUT
+import com.hong.data.common.utils.Constants.GENERAL_AUTH
+import com.hong.data.common.utils.Constants.READ_TIMEOUT
+import com.hong.data.common.utils.Constants.WRITE_TIMEOUT
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
+import hu.akarnokd.rxjava3.retrofit.RxJava3CallAdapterFactory
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
@@ -28,6 +29,7 @@ object NetworkModule {
     fun provideNormalRetrofit(
         @Named(GENERAL_AUTH) okHttpClientBuilder: OkHttpClient.Builder
     ): Retrofit = Retrofit.Builder()
+        .addCallAdapterFactory(RxJava3CallAdapterFactory.create())
         .addConverterFactory(GsonConverterFactory.create())
         .baseUrl(BASE_URL)
         .client(okHttpClientBuilder.build())

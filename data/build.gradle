@@ -35,6 +35,7 @@ android {
 
 dependencies {
 
+    implementation project(':base')
     implementation project(':domain')
 
     implementation(KTX.CORE)
@@ -62,6 +63,12 @@ dependencies {
     // coroutines
     implementation(Coroutines.COROUTINES)
     implementation(Coroutines.COROUTINES_CORE)
+
+    // rx
+    implementation(Rx.RX_JAVA)
+    implementation(Rx.RX_KOTLIN)
+    implementation(Rx.RX_ANDROID)
+    implementation(Retrofit.CONVERTER_RX)
 
     // hilt
     implementation(DaggerHilt.DAGGER_HILT)

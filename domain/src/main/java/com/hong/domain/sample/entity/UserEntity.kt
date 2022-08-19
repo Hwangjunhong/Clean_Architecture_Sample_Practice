@@ -1,9 +1,11 @@
 package com.hong.domain.sample.entity
 
+import com.hong.base.domain.model.Entity
+
 data class UserEntity(
     val avatar: String,
     val email: String,
-    val first_name: String,
+    val firstName: String,
     val id: Int,
-    val last_name: String
-)
+    val lastName: String
+) : Entity

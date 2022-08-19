@@ -1,8 +1,12 @@
+import Versions.ESPRESSO_VERSION
+import Versions.FLIPPER_VERSION
 import Versions.NAV_VERSION
 
 object Versions {
     const val NAV_VERSION = "2.4.0-alpha10"
-
+    const val ESPRESSO_VERSION = "3.4.0"
+    const val FLIPPER_VERSION = "0.125.0"
+    const val LIFECYCLE = "2.4.1"
 }
 
 object Firebase {
@@ -18,11 +22,12 @@ object AndroidX {
     const val MATERIAL = "androidx.compose.material:material:1.1.1"
     const val CONSTRAINT_LAYOUT = "androidx.constraintlayout:constraintlayout:2.1.4"
     const val APP_COMPAT = "androidx.appcompat:appcompat:1.4.2"
-    const val LIFECYCLE_VIEW_MODEL = "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1"
-    const val LIFECYCLE_LIVEDATA = "androidx.lifecycle:lifecycle-livedata-ktx:2.4.1"
     const val ACTIVITY = "androidx.activity:activity-ktx:1.4.0"
     const val FRAGMENT = "androidx.fragment:fragment-ktx:1.4.1"
     const val DATASTORE = "androidx.datastore:datastore-preferences:1.0.0"
+    const val LIFECYCLE_VIEW_MODEL = "androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.LIFECYCLE}"
+    const val LIFECYCLE_LIVEDATA = "androidx.lifecycle:lifecycle-livedata-ktx:${Versions.LIFECYCLE}"
+    const val LIFECYCLE = "androidx.lifecycle:lifecycle-runtime-ktx:${Versions.LIFECYCLE}"
 }
 
 object KTX {
@@ -41,7 +46,13 @@ object Test {
 object AndroidTest {
     const val EXT_JUNIT = "androidx.test.ext:junit:1.1.3"
     const val TEST_RUNNER = "androidx.test:runner:1.4.0"
-    const val ESPRESSO_CORE = "androidx.test.espresso:espresso-core:3.4.0"
+    const val ESPRESSO_CORE = "androidx.test.espresso:espresso-core:$ESPRESSO_VERSION"
+    const val ESPRESSO_CONTRIB = "androidx.test.espresso:espresso-contrib:$ESPRESSO_VERSION"
+    const val ESPRESSO_INTENTS = "androidx.test.espresso:espresso-intents:$ESPRESSO_VERSION"
+    const val ESPRESSO_ACCESSIBILITY = "androidx.test.espresso:espresso-accessibility:$ESPRESSO_VERSION"
+    const val ESPRESSO_WEB = "androidx.test.espresso:espresso-web:$ESPRESSO_VERSION"
+    const val ESPRESSO_IDLING_CONCURRENT = "androidx.test.espresso.idling:idling-concurrent:$ESPRESSO_VERSION"
+    const val ESPRESSO_IDLING_RESOURCE = "androidx.test.espresso:espresso-idling-resource:$ESPRESSO_VERSION"
 }
 
 object DaggerHilt {
@@ -97,3 +108,13 @@ object GLIDE {
     const val GLIDE_COMPILER = "com.github.bumptech.glide:compiler:4.12.0"
 }
 
+object Flipper {
+    const val FLIPPER = "com.facebook.flipper:flipper:$FLIPPER_VERSION"
+    const val FLIPPER_NETWORK = "com.facebook.flipper:flipper-network-plugin:$FLIPPER_VERSION"
+    const val FLIPPER_CANARY = "com.facebook.flipper:flipper-leakcanary2-plugin:$FLIPPER_VERSION"
+    const val SOLOADER = "com.facebook.soloader:soloader:0.10.1"
+}
+
+object CANARY {
+    const val CANARY = "com.squareup.leakcanary:leakcanary-android:2.7"
+}

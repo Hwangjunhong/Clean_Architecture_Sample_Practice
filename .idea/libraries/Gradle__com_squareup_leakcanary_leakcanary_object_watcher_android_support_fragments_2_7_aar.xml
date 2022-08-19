@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="Gradle: com.squareup.leakcanary:leakcanary-object-watcher-android-support-fragments:2.7@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b18f0c16e46bc1e8af539bf01006fdf6/transformed/leakcanary-object-watcher-android-support-fragments-2.7/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/234072a2f452dc2f2b93ff3c84079f07/transformed/leakcanary-object-watcher-android-support-fragments-2.7/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e72dca4ed21dc12f514c07794f4bbc27/transformed/leakcanary-object-watcher-android-support-fragments-2.7/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/cb34268a33137e85c736288a1a1d878d/transformed/leakcanary-object-watcher-android-support-fragments-2.7/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5ca509991f3d75876c1efbea53190944/transformed/leakcanary-object-watcher-android-support-fragments-2.7/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5ca509991f3d75876c1efbea53190944/transformed/leakcanary-object-watcher-android-support-fragments-2.7/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/5ca509991f3d75876c1efbea53190944/transformed/leakcanary-object-watcher-android-support-fragments-2.7/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.leakcanary/leakcanary-object-watcher-android-support-fragments/2.7/4b7f0c8b2d2694265a56c0ab8e1daedbb421f860/leakcanary-object-watcher-android-support-fragments-2.7-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.leakcanary/leakcanary-object-watcher-android-support-fragments/2.7/994399c8c1dff079c7fad276cf52bd1b217fed11/leakcanary-object-watcher-android-support-fragments-2.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

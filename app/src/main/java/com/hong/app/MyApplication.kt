@@ -6,7 +6,7 @@ import dagger.hilt.android.HiltAndroidApp
 import timber.log.Timber
 
 @HiltAndroidApp
-class MyApplication : Application() {
+open class MyApplication : Application() {
 
     private val timberDebugTree = object : Timber.DebugTree() {
         override fun createStackElementTag(element: StackTraceElement): String? {
