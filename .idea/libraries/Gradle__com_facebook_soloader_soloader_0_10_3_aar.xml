@@ -1,10 +1,6 @@
 <component name="libraryTable">
   <library name="Gradle: com.facebook.soloader:soloader:0.10.3@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a62f6d367f3613e3a36920a34b9032d8/transformed/soloader-0.10.3/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/058867cc8ab1b79ed70f4b75297a7a20/transformed/soloader-0.10.3/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/89b3f36ff8388d4ef4d1ef19bd480558/transformed/soloader-0.10.3/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2c8d273ae36687cfb6b3eb832a4a736f/transformed/soloader-0.10.3/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/7179f6103c2d1c1c72a31ec7949cf31b/transformed/soloader-0.10.3/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7179f6103c2d1c1c72a31ec7949cf31b/transformed/soloader-0.10.3/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7179f6103c2d1c1c72a31ec7949cf31b/transformed/soloader-0.10.3/AndroidManifest.xml" />

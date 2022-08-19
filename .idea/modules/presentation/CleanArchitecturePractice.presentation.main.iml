@@ -20,6 +20,7 @@
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.databinding/databinding-common/7.2.2/cb53bd625b7a99cf218f46634d07d1886441288/databinding-common-7.2.2.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/ae8e7264a4d72993404e9cb420c7c9b7/transformed/databinding-ktx-7.2.2-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../domain/build/intermediates/compile_library_classes_jar/debug/classes.jar</arg>
+                <arg>$MODULE_DIR$/../../../data/build/intermediates/compile_library_classes_jar/debug/classes.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/b4fe272521f0bd82f022371359dee009/transformed/navigation-fragment-ktx-2.4.0-alpha10-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/b44410492f63b6bc090835f0aa596ab4/transformed/navigation-dynamic-features-fragment-2.4.0-alpha10-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/d5f5caa7a65d485d18827dab3f04ad00/transformed/navigation-fragment-2.4.0-alpha10-api.jar</arg>

@@ -13,6 +13,7 @@
           <stringArguments>
             <stringArg name="classpath">
               <args>
+                <arg>$MODULE_DIR$/../../../data/build/intermediates/compile_library_classes_jar/debug/classes.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/6b57dabcb38ef0c88d76597b640072a6/transformed/junit-1.1.3-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/bab898dd22749e48164d2a7aded8290c/transformed/espresso-core-3.4.0-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../base/build/intermediates/compile_library_classes_jar/debug/classes.jar</arg>

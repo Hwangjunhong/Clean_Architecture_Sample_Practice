@@ -16,10 +16,12 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/6b57dabcb38ef0c88d76597b640072a6/transformed/junit-1.1.3-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/bab898dd22749e48164d2a7aded8290c/transformed/espresso-core-3.4.0-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../base/build/intermediates/compile_library_classes_jar/debug/classes.jar</arg>
+                <arg>$MODULE_DIR$/../../../presentation/build/intermediates/compile_library_classes_jar/debug/classes.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/deefc7541da950b668a352a11d9272be/transformed/databinding-runtime-7.2.2-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/306e849aef4d9624832b284d6eb29d5a/transformed/databinding-adapters-7.2.2-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.databinding/databinding-common/7.2.2/cb53bd625b7a99cf218f46634d07d1886441288/databinding-common-7.2.2.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/ae8e7264a4d72993404e9cb420c7c9b7/transformed/databinding-ktx-7.2.2-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../data/build/intermediates/compile_library_classes_jar/debug/classes.jar</arg>
                 <arg>$MODULE_DIR$/../../../domain/build/intermediates/compile_library_classes_jar/debug/classes.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/4.9.1/e4c20c4ce426bc4df018b60e92e0362101b448/logging-interceptor-4.9.1.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/e40b54e82bb0b993f9a63cb7b64bd9d4/transformed/lifecycle-runtime-ktx-2.2.0-api.jar</arg>

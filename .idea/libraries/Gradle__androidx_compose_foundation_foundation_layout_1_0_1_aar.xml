@@ -2,8 +2,8 @@
   <library name="Gradle: androidx.compose.foundation:foundation-layout:1.0.1@aar">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/2fcc9c48f30883e8d11430fd9ba67cb0/transformed/foundation-layout-1.0.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2fcc9c48f30883e8d11430fd9ba67cb0/transformed/foundation-layout-1.0.1/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2fcc9c48f30883e8d11430fd9ba67cb0/transformed/foundation-layout-1.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2fcc9c48f30883e8d11430fd9ba67cb0/transformed/foundation-layout-1.0.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
