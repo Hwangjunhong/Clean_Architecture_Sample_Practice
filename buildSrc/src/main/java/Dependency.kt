@@ -118,3 +118,7 @@ object Flipper {
 object CANARY {
     const val CANARY = "com.squareup.leakcanary:leakcanary-android:2.7"
 }
+
+object Jsoup {
+    const val JSOUP = "org.jsoup:jsoup:1.13.1"
+}

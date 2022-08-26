@@ -74,15 +74,18 @@ dependencies {
     implementation(Retrofit.CONVERTER_GSON)
     implementation(Retrofit.CONVERTER_JAXB)
 
-    //okHttp
+    // okHttp
     implementation(OkHttp.OKHTTP)
     implementation(OkHttp.LOGGING_INTERCEPTOR)
 
-    //datastore
+    // datastore
     implementation(AndroidX.DATASTORE)
 
-    //timber
+    // timber
     implementation(Timber.TIMBER)
+
+    // jsoup
+    implementation(Jsoup.JSOUP)
 
 
 }
