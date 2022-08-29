@@ -6,34 +6,10 @@ plugins {
     id 'kotlin-parcelize'
 }
 
+apply from: "$rootDir/config.gradle"
+
 android {
     namespace 'com.hong.presentation'
-    compileSdk 32
-
-    defaultConfig {
-        minSdk 21
-        targetSdk 32
-
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        consumerProguardFiles "consumer-rules.pro"
-    }
-
-    buildTypes {
-        release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-        }
-    }
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
-    }
-    kotlinOptions {
-        jvmTarget = '1.8'
-    }
-    buildFeatures {
-        dataBinding true
-    }
 }
 
 dependencies {
@@ -42,30 +18,13 @@ dependencies {
     implementation project(':domain')
     implementation project(':data')
 
-    implementation(KTX.CORE)
-    implementation(AndroidX.APP_COMPAT)
-    implementation(Google.MATERIAL)
     implementation(AndroidX.CONSTRAINT_LAYOUT)
-
-    // test
-    testImplementation 'junit:junit:4.+'
-    androidTestImplementation(AndroidTest.EXT_JUNIT)
-    androidTestImplementation(AndroidTest.ESPRESSO_CORE)
-
-    // hilt
-    implementation(DaggerHilt.DAGGER_HILT)
-    kapt(DaggerHilt.DAGGER_HILT_COMPILER)
-    implementation(DaggerHilt.DAGGER_HILT_VIEW_MODEL)
-    kapt(DaggerHilt.DAGGER_HILT_ANDROIDX_COMPILER)
 
     // viewModel
     implementation(AndroidX.LIFECYCLE_VIEW_MODEL)
 
     // liveData
     implementation(AndroidX.LIFECYCLE_LIVEDATA)
-
-    //coroutines
-    implementation(Coroutines.COROUTINES)
 
     // viewModel
     implementation(AndroidX.ACTIVITY)
@@ -78,15 +37,7 @@ dependencies {
     androidTestImplementation(NavComponent.NAVIGATION_TESTING)
     implementation(NavComponent.NAVIGATION_COMPOSE)
 
-    // rx
-    implementation(Rx.RX_JAVA)
-    implementation(Rx.RX_KOTLIN)
-    implementation(Rx.RX_ANDROID)
-    implementation(Retrofit.CONVERTER_RX)
-
     // datastore
     implementation(AndroidX.DATASTORE)
 
-    // timber
-    implementation(Timber.TIMBER)
 }
