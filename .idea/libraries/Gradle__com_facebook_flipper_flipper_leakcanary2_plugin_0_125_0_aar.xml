@@ -1,9 +1,10 @@
 <component name="libraryTable">
   <library name="Gradle: com.facebook.flipper:flipper-leakcanary2-plugin:0.125.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/566e0b8a7d69b784852471263b62eab4/transformed/flipper-leakcanary2-plugin-0.125.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/566e0b8a7d69b784852471263b62eab4/transformed/flipper-leakcanary2-plugin-0.125.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/566e0b8a7d69b784852471263b62eab4/transformed/flipper-leakcanary2-plugin-0.125.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/ae40b03c79d0feb1a3ec1aa3abd05ee0/transformed/flipper-leakcanary2-plugin-0.125.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ae40b03c79d0feb1a3ec1aa3abd05ee0/transformed/flipper-leakcanary2-plugin-0.125.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ae40b03c79d0feb1a3ec1aa3abd05ee0/transformed/flipper-leakcanary2-plugin-0.125.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.flipper/flipper-leakcanary2-plugin/0.125.0/2ab0dcf09ebbad68d763f1b467a5b8f71dbeba20/flipper-leakcanary2-plugin-0.125.0-javadoc.jar!/" />

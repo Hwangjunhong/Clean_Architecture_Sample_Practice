@@ -87,5 +87,9 @@ dependencies {
     // jsoup
     implementation(Jsoup.JSOUP)
 
+    // glide
+    implementation(Glide.GLIDE)
+    implementation(Glide.GLIDE_COMPILER)
+
 
 }

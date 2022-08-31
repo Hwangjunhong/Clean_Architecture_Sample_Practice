@@ -1,12 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: com.facebook.flipper:flipper:0.125.0@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/285ac3ade12d30b52d1b2480c3279c3e/transformed/flipper-0.125.0/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/07918956d63db2633b848af7ff35fa7d/transformed/flipper-0.125.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/285ac3ade12d30b52d1b2480c3279c3e/transformed/flipper-0.125.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/285ac3ade12d30b52d1b2480c3279c3e/transformed/flipper-0.125.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/285ac3ade12d30b52d1b2480c3279c3e/transformed/flipper-0.125.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/07918956d63db2633b848af7ff35fa7d/transformed/flipper-0.125.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/07918956d63db2633b848af7ff35fa7d/transformed/flipper-0.125.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/07918956d63db2633b848af7ff35fa7d/transformed/flipper-0.125.0/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.flipper/flipper/0.125.0/5b7b814df64471a42b838771490735d1d407c7ea/flipper-0.125.0-javadoc.jar!/" />

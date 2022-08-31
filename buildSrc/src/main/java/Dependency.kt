@@ -103,7 +103,7 @@ object Rx {
     const val RX_BINDING = "com.jakewharton.rxbinding4:rxbinding:4.0.0"
 }
 
-object GLIDE {
+object Glide {
     const val GLIDE = "com.github.bumptech.glide:glide:4.13.2"
     const val GLIDE_COMPILER = "com.github.bumptech.glide:compiler:4.12.0"
 }

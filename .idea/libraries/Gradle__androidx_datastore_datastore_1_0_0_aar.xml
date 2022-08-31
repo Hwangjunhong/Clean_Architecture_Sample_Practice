@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.datastore:datastore:1.0.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/d57fd2374a8af929ee3d935eb6782c74/transformed/datastore-1.0.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d57fd2374a8af929ee3d935eb6782c74/transformed/datastore-1.0.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d57fd2374a8af929ee3d935eb6782c74/transformed/datastore-1.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9cb87955eb3020c21131b805f101af5a/transformed/datastore-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9cb87955eb3020c21131b805f101af5a/transformed/datastore-1.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/9cb87955eb3020c21131b805f101af5a/transformed/datastore-1.0.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
